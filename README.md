@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Vision Transformer 
 
 Research upon visual transformers on small datasets
