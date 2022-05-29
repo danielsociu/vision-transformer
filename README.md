@@ -8,10 +8,13 @@ Road sign db:
 
     * vit base 224 - dnoe
     * vit base 384 - done
-    * vit base 224 - with cosomethign loss  
+    * vit base 224 with cosomethign loss  
     * DERT / YOLOS
 
 Vehicle plate db:
 
-    * vit base 224
-    * vit base 224- with cosometihng loss
+    * vit base 224 - done
+    * vit base 224 with cosomethign loss - in the working
+        * doesn't work so I try: adding a var C, 
+        * ignore the bbox loss if similarity == -1 (basically making it 0)
+        * using predefined cosingembeddingloss
